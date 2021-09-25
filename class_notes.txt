@@ -1,0 +1,76 @@
+Introduction
+************
+
+    - React is the JavaScript library.
+
+    - React Given By Facebook.
+
+    - React Categorized into 3 Types.
+
+        1) ReactJS
+
+        2) React Native
+
+        3) React BootStrap
+
+    - ReactJS used to build the Web Applications.
+
+    - We will build web Applications in 2 ways.
+
+            1) JSX
+
+            2) TSX
+
+    - JSX Stands for JavaScript and XML.
+
+    - TSX Stands for TypeScript and XML.
+
+    - JavaScript is the Scripting Language.
+
+    - JavaScript wont follows the OOPS.
+
+    - JavaScript is Object Based Scripting language.
+
+    - TSX Stands for TypeScript and XML.
+
+    - In General, Browsers can't understand XML.
+
+    - So, we must convert XML to Equalent JavaScript.
+
+    - Babel is the Tool, used to convert the XML to Equalent JavaScript.
+
+    - Babel is inbuilt tool in ReactJS.
+
+    - Visual Studio Code is Suggestable IDE, to build the React Applications.
+
+    - Visual Studio Code also called as VSCode.
+
+    - VSCode is the Open Source IDE and Provided by Microsoft.
+
+
+
+
+
+    - TypeScript is the Programming Language.
+
+    - TypeScript given by Microsoft.
+
+    - TypeScript follows the OOPS.
+
+    - React Native used to build the Mobile Applications.
+
+    - React BootStrap used to apply the styles to the both web applications and mobile applications.
+
+    - library containes predefined functionalities.
+
+    - to use libraries no need to follow any rules and regulations.
+
+    Ex.
+        ReactJS
+
+        jQuery
+
+        ----
+        ----
+        ----
+
