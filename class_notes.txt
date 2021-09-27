@@ -74,3 +74,165 @@ Introduction
         ----
         ----
 
+
+
+Day-3
+*****
+
+Installation of ReactJS
+
+
+1) download and install "NodeJS"
+
+    NodeJS containes following tools.
+
+    1) npm
+
+    2) node
+
+    3) npx
+
+    ----
+    ----
+    ----
+
+    npm stands for "node packaging manager".
+
+    npm helps to install "ReactJS".
+
+    node tool helps to execute the "JavaScript".
+
+    npx stands for "node packaging runner".
+
+    npx helps to create the environment to "build react applications".
+
+website : https://nodejs.org/en/download/
+
+file    : node-v14.17.6-x64.msi
+
+
+2) install yarn tool
+
+    yarn tool given by Facebook.
+
+    yarn tool used to download the libraries.
+
+    we will install yarn tool by using following command.
+
+    > npm install -g yarn
+
+    -g stands for global Installation.
+
+
+3) install create-react-app tool
+
+    create-react-app tool given by Facebook
+
+    create-react-app tool, used to create the react applications.
+
+    > npm install -g create-react-app
+
+
+4) install visual studio Code
+
+    visual studio code is the "IDE".
+
+    visual studio code also called as "VSCode".
+
+    VSCode given by "Microsoft".
+
+    VSCode is the "open source IDE".
+
+website : https://code.visualstudio.com/docs/?dv=win
+
+file    : VSCodeUserSetup-x64-1.60.2.exe
+
+
+
+
+
+++++++++++++++++++++++++++++++++++++++++++++++++++
+create the react application    (JSX)
++++++++++++++++++++++++++++++++++++++++++++++++++
+
+1) create the react application with the following command.
+
+> npx create-react-app first-app-jsx
+
+    where "first-app-jsx" is the name of the react application
+
+
+2) switch to react application
+
+    > cd first-app-jsx
+
+3) execute the react application
+
+    > yarn start
+
+    the default port number of react application is 3000
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
