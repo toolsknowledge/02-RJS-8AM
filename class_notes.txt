@@ -173,6 +173,207 @@ create the react application    (JSX)
     the default port number of react application is 3000
 
 
+Day-4
+*****
+
+create the react application with "TSX" Approch
+
+1) create the react application
+
+    > npx create-react-app first-app-tsx --template typescript
+
+    where "first-app-tsx" is the name of the react application
+
+
+2) switch to react application
+
+    > cd first-app-tsx
+
+3) execute the react application
+
+    > yarn start
+
+
+Directory Structure
+*******************
+
+1) node_modules
+
+        - it containes libraries, these libraries helps to execute the react application.
+
+2) public/favicon.ico
+
+     - this logo representing default logo of react.
+
+3) public/index.html
+
+    - react library starts the execution from index.html file.
+
+    - index.html file is the "main" template.
+
+    - index.html file containes "div" with id as "root".
+
+    - components will bind the response to "div" whose id as "root"
+
+4) logo192.png
+   logo512.png
+
+        - these images are used to execute the react application in multiple devices with same resolution
+
+5) manifest.json
+
+        - used to configure the mobile application development.
+
+
+6) src /  App.js
+          App.css
+          App.test.js
+
+          when ever we create the react application automatically App is the default component.
+
+
+7) src / index.css
+
+    used to define the global styles
+
+    these styles applicable to entire react application
+
+8) src/logo.svg
+
+    logo.svg is the default svg logo of react application.
+
+    svg logos have more resolution.
+
+9) reportWebVitals.js
+        &
+   setupTests.js
+
+    these two files behaves like libraries
+
+    these libraries helps to write the test cases
+
+
+10) .gitignore
+
+    used to stop the libraries to Repositories
+
+
+11) package.json
+
+    used to download the 3rd party libraries.
+
+
+12) src/index.js
+
+    used to register the components
+
+
+Virtual DOM
+***********
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
