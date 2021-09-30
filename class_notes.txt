@@ -270,6 +270,92 @@ Directory Structure
 
 Virtual DOM
 ***********
+    DOM stands for "Document Object Model".
+
+    DOM will create by "Browser Engine".
+
+    when ever HTML Loaded into Browser Engine, Browser Engine will create "DOM" Object.
+
+    DOM Object Internally containes "Tree Structure", That Tree Structure Technically called as "DOM Tree Structure".
+
+    Navigation in DOM Object called as "DOM Traversing".
+
+
+                                        components
+                                        **********
+    - reusable portion of complex ui called as "component".
+
+    - as a react developer, we can create more than "one component".
+
+    - as a react developer, we can privide communication between one component to another component.
+
+    - as a react developer, we can create components in two languages.
+
+    1) JSX   (JavaScript  and XML)
+
+    2) TSX    (TypeScript and XML )
+
+    - we can create components in two Approches
+
+        1) Functional 
+
+        2) Class Level
+
+                                    JSX
+                                    ***
+
+    > npx create-react-app component-app-jsx
+
+
+    **************************************
+    component-app-jsx 
+                    src
+                      First.js
+
+                      index.js
+    ***************************************
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
