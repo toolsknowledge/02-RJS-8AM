@@ -315,6 +315,24 @@ Virtual DOM
                       index.js
     ***************************************
 
+state
+*****
+    - "state" representing "component" data.
+
+    - "state" is the predefined object in react library.
+
+********************************************
+state-ex-jsx
+           src  
+             First.jsx
+
+             index.js
+********************************************              
+
+
+
+
+
 
 
 
