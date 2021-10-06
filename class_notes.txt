@@ -327,7 +327,44 @@ state-ex-jsx
              First.jsx
 
              index.js
-********************************************              
+********************************************
+
+making the rest api calls
+-------------------------
+
+axios is the 3rd party library, used to make the asynchronous calls.
+
+    > yarn add axios 
+
+
+**********************************************
+async-call-ex
+            src
+               components
+                    GetEx.js
+                    PostEx.js
+**********************************************
+
+
++++++++++++++++++++++++++++++++++++++++++++++++++
+async-call-ex
+            src
+              components
+                    GetExFn.js
+                    PostExFn.js
++++++++++++++++++++++++++++++++++++++++++++++++++
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

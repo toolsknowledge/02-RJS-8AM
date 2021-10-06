@@ -3,15 +3,10 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
-import First from "./First";
-import Second from "./Second";
-import Third from "./Third";
-import "../node_modules/bootstrap/dist/css/bootstrap.min.css";
-import Fourth from "./Fourth";
 
 ReactDOM.render(
   <React.StrictMode>
-    <Fourth />
+    <App />
   </React.StrictMode>,
   document.getElementById('root')
 );
