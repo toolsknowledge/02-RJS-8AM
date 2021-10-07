@@ -345,6 +345,10 @@ async-call-ex
                     PostEx.js
 **********************************************
 
+GET : https://www.w3schools.com/angular/customers.php
+
+
+
 
 +++++++++++++++++++++++++++++++++++++++++++++++++
 async-call-ex

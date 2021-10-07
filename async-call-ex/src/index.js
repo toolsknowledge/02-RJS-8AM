@@ -3,10 +3,11 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
+import GetEx from "./components/GetEx";
 
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+    <GetEx />
   </React.StrictMode>,
   document.getElementById('root')
 );
