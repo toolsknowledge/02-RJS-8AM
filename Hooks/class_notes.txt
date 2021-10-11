@@ -1,0 +1,24 @@
+Hooks
+*****
+
+Functional Components
++++++++++++++++++++++
+
+1) useState()
+
+    used to define the state in functional Component.
+
+Syntax
+------
+    const [user_defined_variable,
+            user_defined_function] = useState(data);
+
+
+
+2) useRef()
+
+    used to assign the id's to DOM Elements.
+
+
+
+
