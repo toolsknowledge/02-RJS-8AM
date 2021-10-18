@@ -416,6 +416,51 @@ async-call-ex
 
 
 
+Single Page Application
+***********************
+    - loading one component to another component without refreshing the whole webpage called as single page application.
+
+    - Navigation in Single Page Applications called as "Routing".
+
+    - we will implement Single Page Applications with the help of "react-router-dom" package.
+
+    - we will download "react-router-dom" module with the help of yarn tool.
+
+
+    > yarn add react-router-dom
+
+
+**********************************
+spa-demo
+       src
+         Master.js
+
+         Pageone.js
+
+         Pagetwo.js
+
+         Pagethree.js
+***********************************
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
