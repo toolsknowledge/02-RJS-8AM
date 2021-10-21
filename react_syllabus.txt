@@ -1,0 +1,175 @@
+                                                ReactJS
+                                                *******
+
+1) Introduction
+    
+      - What is ReactJS
+
+      - Advantages of ReactJS
+
+      - Features of ReactJS
+
+      - Virtual DOM
+
+      - Angular / React / VueJS
+
+
+2) Installation of ReactJS
+
+
+3) Create the React Applications by using "JSX" and "TSX"
+
+
+4) create the components in JSX and TSX
+
+    => Functional Components
+
+    => Class Level Components
+
+
+5) State & Props
+
+6) Component Communications
+
+    => Parent Component to Child Component
+
+    => Child Component to Parent Component
+
+
+7) Asynchronous Calls
+
+    => fetch
+
+    => axios
+
+8) Profiler in ReactJS
+
+9) Pure Components in ReactJS / MEMO Hook
+
+10) Single Page Applications
+
+        Routing
+
+11) Forms With Validations
+
+        formik & yup
+
+
+12) Charts
+
+        Pie
+
+        Line
+
+        Bar
+
+
+13) Life Cycle Hooks
+
+    => functional level components
+
+    => class level components
+
+
+14) Middlewares in ReactJS
+
+    => Redux
+
+    => Thunk
+
+    => Saga
+
+
+15) MERN Stack Development
+
+    M - MongoDB
+
+    E - ExpressJS
+
+    R - ReactJS
+
+    N - NodeJS
+
+
+16) Mini project
+
+
+17) AWS Deployment
+
+        CI / CD Process
+
+        Continuos Integration & Continuos Deployment
+
+18) Unit Test Cases
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
