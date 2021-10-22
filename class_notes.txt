@@ -447,6 +447,32 @@ spa-demo
 
 
 
+Middlewares / State Management
+******************************
+    - React Applications are "component" based applications.
+
+    - As a React developer, we can create more than "one" component.
+
+    - As react developer, we can provide communication between components.
+
+            1) state & props
+
+            2) events
+
+    - communication between components are difficult, if application complexity increses.
+
+    - to simplify communication between components, we will use common storage (state).
+
+    - we will implement above common storage by using state management.
+
+    - we will implement state management by using following middlewares.
+
+            1) redux
+
+            2) thunk
+
+            3) saga
+
 
 
 
