@@ -474,6 +474,130 @@ Middlewares / State Management
             3) saga
 
 
+MiniProject implementation with Redux
+*************************************
+
+1) create the AWS Account
+
+    Link : https://portal.aws.amazon.com/billing/signup#/start
+
+
+2) deploy images to s3 bucket
+
+    image_1 : https://02-rjs-8am.s3.us-east-2.amazonaws.com/p1.jpg
+
+    image_2 : https://02-rjs-8am.s3.us-east-2.amazonaws.com/p2.jpg
+
+    image_3 : https://02-rjs-8am.s3.us-east-2.amazonaws.com/p3.jpg
+
+    image_4 : https://02-rjs-8am.s3.us-east-2.amazonaws.com/p4.jpg
+
+    image_5 : https://02-rjs-8am.s3.us-east-2.amazonaws.com/p5.jpg
+
+    image_6 : https://02-rjs-8am.s3.us-east-2.amazonaws.com/p6.jpg
+
+
+3) create the mongodb account
+
+    Link : https://account.mongodb.com/account/register
+
+
+4) store the above images path to mongodb database
+
+    data base name : 02-rjs-8am
+
+    collection name : products
+
+    password : admin
+
+    connection url : mongodb+srv://admin:admin@miniprojectdb.nzphu.mongodb.net/02-rjs-8am?retryWrites=true&w=majority
+
+5) create the server Directory
+
+    Ex.
+        server
+
+
+6) switch to server Directory
+
+    > cd server
+
+
+7) download node modules
+
+    > mongoose
+        connect to the mongodb database
+    > express
+        develop the rest apis
+    > cors
+        enable the cors policy
+
+
+    > yarn add mongoose express cors
+
+
+8) develop model
+
+    ********************************
+    server
+         model
+           product.js
+    *******************************
+
+    finally "product" model is ready
+
+
+9) create the rest api
+
+
+    ************************************
+    server
+        server.js
+    ************************************
+
+
+
+
+10) start the server
+
+    > node server
+
+
+11) test the rest api by using Postman
+
+    > http://localhost:8080/api/products
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
