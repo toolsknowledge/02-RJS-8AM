@@ -512,171 +512,123 @@ MiniProject implementation with Redux
 
     connection url : mongodb+srv://admin:admin@miniprojectdb.nzphu.mongodb.net/02-rjs-8am?retryWrites=true&w=majority
 
-5) create the server Directory
+
+5) create the server directory
 
     Ex.
         server
 
 
-6) switch to server Directory
+6) switch to server directory
 
     > cd server
 
 
-7) download node modules
+7) download the node modules
 
-    > mongoose
-        connect to the mongodb database
-    > express
-        develop the rest apis
-    > cors
-        enable the cors policy
-
-
-    > yarn add mongoose express cors
+    express
+        express used to develop the rest apis
+    mongoose
+        mongoose used to connect to mongodb database
+    cors
+        used to enable the cors policy
 
 
-8) develop model
+    > yarn add express mongoose cors
 
-    ********************************
-    server
-         model
-           product.js
-    *******************************
+
+8) define model
+
+***********************************************************
+server
+     model
+       product.js
+***********************************************************
 
     finally "product" model is ready
+
 
 
 9) create the rest api
 
 
-    ************************************
-    server
-        server.js
-    ************************************
+*****************************************************************
+server
+    server.js
+*****************************************************************
 
 
-
-
-10) start the server
+10) start the node server
 
     > node server
-
 
 11) test the rest api by using Postman
 
     > http://localhost:8080/api/products
 
 
+12) create the react application
 
+    > npx create-react-app redux-thunk-ex
 
 
+13) switch to react application
 
+    > cd redux-thunk-ex
 
 
+14) download the libraries
 
+    > redux
 
+    > react-redux
 
+    > redux-thunk
 
+    > axios
 
 
+    > yarn add redux react-redux redux-thunk axios
 
 
 
+15) implement the redux architecture
 
+        1) types / constants
 
+        2) actions
 
+        3) reducer
 
+        4) store
 
+        5) component with dispatch and subscribe
 
 
 
+16) create the constants
 
+    finally following constats are ready.
 
+    1)HIT_SERVER
 
+    2)POSITIVE_RESPONSE
 
+    3)NEGATIVE_RESPONSE
 
 
 
+17) create the actions
 
+    redux-thunk-ex
+                 src
+                   actions
+                      actions.js
 
+    finally ProductActions is ready
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+18) create the reducer
 
 
 
