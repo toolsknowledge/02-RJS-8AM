@@ -1,29 +1,29 @@
 import axios from "axios";
-import { HIT_SERVER, NEGATIVE_RESPONSE, POSITIVE_RESPONSE } from "../constants/products";
+import { PRODUCTS_LOADING, PRODUCTS_LOADING_FAIL, PRODUCTS_LOADING_SUCCESS } from "../constants/products";
 
-export const ProductActions = ()=>{
+export const ProductsActions = ()=>{
     return async (dispatch)=>{
         dispatch({
-            type:HIT_SERVER,
-            loading:false,
+            type:PRODUCTS_LOADING,
+            loading:true,
             products:[],
             error:""
         });
         try{
-            const {data} = await axios.get("http://localhost:8080/api/products");
+            const {data} = await axios.get(`http://localhost:8080/api/products`);
             dispatch({
-                type:POSITIVE_RESPONSE,
-                loading:true,
+                type:PRODUCTS_LOADING_SUCCESS,
+                loading:false,
                 products:data,
                 error:""
-            })
+            });
         }catch(err){
             dispatch({
-                type:NEGATIVE_RESPONSE,
-                loading:true,
-                products:[],
-                error:err.message
-            })
+                type:PRODUCTS_LOADING_FAIL,
+                loading:false,
+                error:err.message,
+                products:[]
+            });
         }
-    };
+    }
 };

@@ -5,6 +5,7 @@ const cors = require("cors");
 const product = require("./model/product");
 
 const app = express();
+app.use(cors());
 
 mongoose.connect("mongodb+srv://admin:admin@miniprojectdb.nzphu.mongodb.net/02-rjs-8am?retryWrites=true&w=majority");
 

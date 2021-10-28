@@ -605,100 +605,47 @@ server
         5) component with dispatch and subscribe
 
 
-
 16) create the constants
 
-    finally following constats are ready.
 
-    1)HIT_SERVER
+**************************************
+redux-thunk-ex
+             src 
+               constants
+                    products.js
+**************************************
 
-    2)POSITIVE_RESPONSE
+    finally "PRODUCTS_LOADING", "PRODUCTS_LOADING_SUCCESS" and "PRODUCTS_LOADING_FAIL" constants are ready.
 
-    3)NEGATIVE_RESPONSE
 
 
+17) implement the actions
 
-17) create the actions
 
-    redux-thunk-ex
-                 src
-                   actions
-                      actions.js
+********************************************
+redux-thunk-ex
+             src
+               actions
+                 actions.js
+*******************************************
 
-    finally ProductActions is ready
 
+18) implement the reducer
 
-18) create the reducer
 
+**************************************************
+redux-thunk-ex
+             src
+               reducer
+                   reducer.js
+**************************************************
 
 
+19) deploy "reducer" to "store",
+           apply the "thunk" middleware,
+           and make "store" available to "App" Component
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+    index.js
 
 
 
