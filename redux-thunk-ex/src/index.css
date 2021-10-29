@@ -11,3 +11,39 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.large-spinner{
+  font-size: 3rem;
+  color: red;
+  display: flex;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+}
+
+.alert{
+  width: 10%;
+  height: 30px;
+  margin: 10px auto;
+  background-color: #c0c0c0;
+  border: 1px solid transparent;
+  text-align: center;
+  border-radius: 20px;
+  float: right;
+}
+
+
+.alert-info{
+  background-color: wheat;
+  color: blue;
+}
+
+
+.alert-danger{
+  background-color: red;
+  color: rgb(240, 236, 236);
+}
+
+
+
+
