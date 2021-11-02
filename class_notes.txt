@@ -686,7 +686,7 @@ redux-thunk-ex
     **********************************************************
 
 
-
+24) design App Screen   (Grid Layout)
 
 
 
