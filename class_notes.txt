@@ -689,6 +689,99 @@ redux-thunk-ex
 24) design App Screen   (Grid Layout)
 
 
+25) deploy backend to the aws server
+
+    1) create the GitHub
+
+        URL : https://github.com/toolsknowledge/redux-thunk-miniproject.git
+
+    2) push the server code to GitHub
+
+    3) create the application in AWS server
+
+    4) implement the CI/CD Operations
+
+
+26) implement the "frontend" deployment
+
+
+    1) configure the cloud url
+
+        http://rjs8am-env.eba-pksbewfd.us-east-2.elasticbeanstalk.com/api/products
+
+    2) install aws cli tool
+
+        website : https://aws.amazon.com/cli/
+
+        file    : AWSCLIV2.msi
+    
+    3) prepare the production build
+
+        > npm run build
+
+    4) create the s3 bucket
+
+    5) create the tokens
+
+            IAM
+    6) edit the package.json file
+
+    7) execute the following commands
+
+        > aws configure
+
+        > npm run build
+
+        > npm run deploy
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

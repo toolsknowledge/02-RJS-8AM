@@ -10,7 +10,7 @@ export const ProductsActions = ()=>{
             error:""
         });
         try{
-            const {data} = await axios.get(`http://localhost:8080/api/products`);
+            const {data} = await axios.get(`http://rjs8am-env.eba-pksbewfd.us-east-2.elasticbeanstalk.com/api/products`);
             dispatch({
                 type:PRODUCTS_LOADING_SUCCESS,
                 loading:false,
