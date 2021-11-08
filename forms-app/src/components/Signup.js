@@ -9,7 +9,8 @@ const Signup = ()=>{
         firstName : Yup.string()
                     .max(15, 'Must be 15 characters or less')
                     .required('Required')
-                    .min(5,"minimum 5 characters are required"),
+                    .min(5,"minimum 5 characters are required")
+                    ,
     })
     return(
         <React.Fragment>
