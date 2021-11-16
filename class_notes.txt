@@ -735,6 +735,77 @@ redux-thunk-ex
         > npm run deploy
 
 
+Saga Middleware
+***************
+
+    Saga Middleware used to manipulate the actions.
+
+
+1) create the react application
+
+    > npx create-react-app saga-app
+
+
+
+2) switch to react application
+
+
+    > cd saga-app
+
+
+3) download the 3rd party libraries
+
+    > redux
+
+    > react-redux
+
+    > redux-saga
+
+    > yarn add redux react-redux redux-saga
+
+
+4) create the saga application
+
+    => constants
+
+    => actions
+
+    => reducer
+
+    => store
+
+    => dispatch & subscribe
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

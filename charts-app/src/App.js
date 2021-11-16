@@ -12,6 +12,7 @@ function App() {
                labels:["Angular","ReactJS","VueJS","JavaScript","NodeJS","MongoDB"],
                datasets:[{
                   label:"AshokIT",
+                  
                   data:[12,6,3,10,11,8,4],
                   backgroundColor:"red",
                   borderColor:"green",
